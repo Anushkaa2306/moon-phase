@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgb(86, 74, 96), rgb(50, 5, 78));
+    animation: back 2s ease-out;
+}
+@keyframes back {
+    0%{
+        background: linear-gradient(to right, rgb(86, 74, 96), rgb(50, 5, 78));
+    }
+    50%{
+        background: linear-gradient(to left,  rgb(50, 5, 78),rgb(86, 74, 96),);
+    }
+    100%{
+        background: linear-gradient(to right,  rgb(50, 5, 78),rgb(86, 74, 96),);
+    }
+}
