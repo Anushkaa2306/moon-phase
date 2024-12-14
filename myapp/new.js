@@ -14,7 +14,7 @@ function calculateMoonPhase() {
 
   if (!birthdateInput) {
     resultDiv.innerHTML = "<p>Please enter a birthdate.</p>";
-    result.style.display = "none"; // Hide image if no date
+    moonImage.style.display = "none"; // Hide image if no date
     return;
   }
   else{
