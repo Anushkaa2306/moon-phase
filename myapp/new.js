@@ -7,9 +7,6 @@ function calculateMoonPhase() {
   const result = document.getElementById('result');
   console.log(result);
   
-
-  
-
   console.log("Date Input:", birthdateInput); // Check if date is captured
 
   if (!birthdateInput) {
