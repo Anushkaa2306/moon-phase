@@ -27,7 +27,7 @@ function calculateMoonPhase() {
   // Set the description and image based on the moon phase
   resultDiv.innerHTML = `<p>Your Moon Phase: <strong>${moonPhase.name}</strong></p> 
                          <p>${moonPhase.description}</p>`;
-  moonImage.src = `./image/${moonPhase.image}`;
+  moonImage.src = `./image/image/${moonPhase.image}`;
   moonImage.style.display = "block"; // Show the image
 }
 
